@@ -1,0 +1,18 @@
+code = '''
+def add_two_numbers(a, b):
+    return a + b
+
+# Test cases
+test_case_1 = add_two_numbers(3, 7)   # Expected output: 10
+test_case_2 = add_two_numbers(-2, 5)  # Expected output: 3
+test_case_3 = add_two_numbers(0, 0)   # Expected output: 0
+
+# Print test case results
+print("Test Case 1 Result:", test_case_1)
+print("Test Case 2 Result:", test_case_2)
+print("Test Case 3 Result:", test_case_3)
+'''
+
+with open('solution.py', 'w') as f:
+    f.write(code)
+    print("Code saved successfully in solution.py")

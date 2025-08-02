@@ -1,0 +1,14 @@
+def check_word_in_sentence(sentence, word):
+    # Split the sentence into words
+    words = sentence.split()
+    
+    # Check if the word is in the list of words
+    if word in words:
+        return "Word is present in the sentence"
+    else:
+        return "Word is not present in the sentence"
+
+# Test cases
+print(check_word_in_sentence("Geeks for Geeks", "Geeks"))  # Expected: Word is present in the sentence
+print(check_word_in_sentence("Geeks for Geeks", "eeks"))   # Expected: Word is not present in the sentence
+print(check_word_in_sentence("Hello World", "World"))      # Expected: Word is present in the sentence

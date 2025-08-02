@@ -1,0 +1,9 @@
+def add_numbers(a, b):
+    return a + b
+
+# Test cases
+result1 = add_numbers(2, 3)    # Expected: 5
+result2 = add_numbers(-1, 8)   # Expected: 7
+result3 = add_numbers(0, 0)    # Expected: 0
+
+result1, result2, result3

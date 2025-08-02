@@ -1,0 +1,9 @@
+def add_two_numbers(a, b):
+    return a + b
+
+# Test cases
+test_case_1 = add_two_numbers(3, 7)   # Expected output: 10
+test_case_2 = add_two_numbers(-2, 5)  # Expected output: 3
+test_case_3 = add_two_numbers(0, 0)   # Expected output: 0
+
+test_case_1, test_case_2, test_case_3

@@ -1,0 +1,10 @@
+def add_numbers(a, b):
+    return a + b
+
+test_case_1 = add_numbers(2, 3)  # Expected output: 5
+test_case_2 = add_numbers(-1, 5) # Expected output: 4
+test_case_3 = add_numbers(0, 0)  # Expected output: 0
+
+print(f'Test Case 1 Output: {test_case_1}')
+print(f'Test Case 2 Output: {test_case_2}')
+print(f'Test Case 3 Output: {test_case_3}')
